@@ -5,7 +5,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 public class Conexao extends SQLiteOpenHelper {
-    private static final String name "banco";
+    private static final String name ="banco";
     private static final int version = 1;
 
     public Conexao(Context context) {
